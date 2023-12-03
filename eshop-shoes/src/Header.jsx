@@ -1,12 +1,6 @@
 import React from "react";
 import { Link, NavLink } from "react-router-dom";
 
-// const activeStyle = {
-//   color: "purple",
-// };
-
-// const classNameFunc = ({ isActive }) => (isActive ? "activeStyle" : "");
-
 export default function Header() {
   return (
     <header>

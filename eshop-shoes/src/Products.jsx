@@ -31,7 +31,7 @@ export default function Products() {
 
   if (error) throw error;
   if (loading) return <Spinner />;
-  if (products.length === 0) return <PageNotFound />;
+  if (products?.length === 0) return <PageNotFound />;
 
   return (
     <>
@@ -49,7 +49,7 @@ export default function Products() {
         </select>
         {size && <h2>Found {filteredProducts.length} items</h2>}
       </section>
-      <section id="products">{filteredProducts.map(renderProduct)}</section>
+      <section id="products">{filteredProducts?.map(renderProduct)}</section>
     </>
   );
 }

@@ -229,7 +229,8 @@ form>div {
 
 .activeStyle {
   text-decoration: underline;
-  text-decoration-color: #529df4;
+  color: #529df4;
+  text-decoration-color: #1D589B;
   text-underline-offset: 3px;
   text-decoration-thickness: 2px;
 }

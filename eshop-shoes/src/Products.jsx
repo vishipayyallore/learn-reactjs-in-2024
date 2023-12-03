@@ -10,7 +10,7 @@ export default function Products() {
   const { category } = useParams();
 
   const { data: products, loading, error } = useFetch(
-    "products?category=" + category
+    `products?category=${category}`
   );
 
   function renderProduct(p) {

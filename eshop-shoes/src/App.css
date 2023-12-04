@@ -15,7 +15,8 @@ body {
 #root {
   display: flex;
   flex-direction: column;
-  height: 100vh; /* Avoid the IE 10-11 `min-height` bug. */
+  height: 100vh;
+  /* Avoid the IE 10-11 `min-height` bug. */
 }
 
 .content {
@@ -42,7 +43,8 @@ footer {
   color: white;
   /* padding: 2px 0 2px 0; */
   flex-shrink: 0;
-  background-color: rgb(29, 88, 155);
+  /* background-color: rgb(29, 88, 155); */
+  background-color: #1D589B;
 }
 
 header ul {
@@ -106,7 +108,10 @@ main {
 }
 
 a {
-  color: #faa541;
+  /* color: #faa541; */
+  font-weight: 800;
+  font-size: large;
+  color: #066bdf;
   text-decoration: none;
 }
 
@@ -184,7 +189,7 @@ div[role="alert"] {
   margin-top: 20px;
 } */
 
-form > div {
+form>div {
   margin-bottom: 20px;
 }
 
@@ -216,4 +221,12 @@ form > div {
   100% {
     transform: rotate(360deg);
   }
+}
+
+.activeStyle {
+  text-decoration: underline;
+  color: #529df4;
+  text-decoration-color: #1D589B;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 2px;
 }

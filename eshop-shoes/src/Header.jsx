@@ -3,7 +3,7 @@ import { Link, NavLink } from "react-router-dom";
 
 export default function Header() {
   return (
-    <header>
+    <header className="header-nav">
       <nav>
         <ul>
           <li>

@@ -198,11 +198,13 @@ form>div {
   align-items: center;
   justify-content: center;
 }
+
 .lds-dual-ring {
   display: inline-block;
   width: 80px;
   height: 80px;
 }
+
 .lds-dual-ring:after {
   content: " ";
   display: block;
@@ -214,10 +216,12 @@ form>div {
   border-color: #cef transparent #cef transparent;
   animation: lds-dual-ring 1.2s linear infinite;
 }
+
 @keyframes lds-dual-ring {
   0% {
     transform: rotate(0deg);
   }
+
   100% {
     transform: rotate(360deg);
   }
@@ -229,4 +233,11 @@ form>div {
   text-decoration-color: #1D589B;
   text-underline-offset: 3px;
   text-decoration-thickness: 2px;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid #529df4;
+  /* Add any other styles as needed */
 }

@@ -10,8 +10,8 @@ import Cart from "./Cart";
 export default function App() {
   return (
     <>
+      <Header />
       <div className="content">
-        <Header />
         <main>
           <Routes>
             <Route path="/" element={<h1>Welcome to Carved Rock Fitness</h1>} />

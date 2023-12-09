@@ -78,10 +78,9 @@ header li {
   align-items: flex-end;
   max-width: 350px;
   text-align: center;
-  border: #31304D 1px solid;
+  border: #BB9CC0 1px solid;
   border-radius: 5px;
-  /* padding: 5px; */
-  box-shadow: 0 0 10px #6b6a6b; 
+  box-shadow: 0 0 10px #67729D; 
 }
 
 #cart img {

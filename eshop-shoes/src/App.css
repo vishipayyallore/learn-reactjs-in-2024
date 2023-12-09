@@ -30,7 +30,7 @@ header {
 }
 
 header img {
-  max-height: 100px;
+  max-height: 80px;
 }
 
 nav {
@@ -41,14 +41,13 @@ nav {
 footer {
   text-align: center;
   color: white;
-  /* padding: 2px 0 2px 0; */
   flex-shrink: 0;
-  /* background-color: rgb(29, 88, 155); */
   background-color: #1D589B;
 }
 
 header ul {
   padding-inline-start: 20px;
+  margin: 5px;
 }
 
 header li {
@@ -69,7 +68,9 @@ header li {
 
 #products {
   display: flex;
+  padding: 20px;
   justify-content: center;
+  gap: 20px;
 }
 
 .product {
@@ -77,6 +78,10 @@ header li {
   align-items: flex-end;
   max-width: 350px;
   text-align: center;
+  border: #31304D 1px solid;
+  border-radius: 5px;
+  /* padding: 5px; */
+  box-shadow: 0 0 10px #6b6a6b; 
 }
 
 #cart img {
@@ -238,6 +243,6 @@ form>div {
 .header-nav {
   display: flex;
   align-items: center;
-  border-bottom: 2px solid #529df4;
+  border-bottom: 2px solid #6DB9EF;
   /* Add any other styles as needed */
 }

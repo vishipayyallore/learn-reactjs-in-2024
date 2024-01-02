@@ -4,6 +4,11 @@ I am learning ReactJS from different Video Courses, Books, and Websites
 
 ## Few Commands
 
+### NextJS
+```powershell
+npx create-next-app@latest
+```
+
 ```powershell
 npm create vite@latest my-vue-app -- --template vue
 npm create vite@latest my-vue-app -- --template vue-ts

@@ -5,6 +5,7 @@ I am learning ReactJS from different Video Courses, Books, and Websites
 ## Few Commands
 
 ### NextJS
+
 ```powershell
 npx create-next-app@latest
 ```

@@ -19,7 +19,7 @@ export default function TodoListing(props) {
           <tr>
             <th className="ms-3 border border-slate-600 p-1">Items</th>
             <th className="ms-3 border border-slate-600 p-1">Azure Open Classification</th>
-            <th className='border border-slate-600 p-1'>Action</th>
+            <th className='border border-slate-600 p-1'>Actions</th>
           </tr>
         </thead>
         <tbody>

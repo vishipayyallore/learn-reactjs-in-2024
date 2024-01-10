@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export default function Header() {
     return (
-        <div className='flex justify-between p-5 text-white gap-5 items-center h-6 bg-gradient-to-r from-blue-600 to-blue-900'>
+        <div className='flex justify-between p-5 text-white gap-5 items-center h-6 bg-gradient-to-r from-[#424769] to-[#2D3250]'>
             <Link className="text-2xl font-bold" href='/'>Todo Application</Link>
 
             <div className='flex gap-5'>

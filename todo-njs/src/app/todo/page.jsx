@@ -21,11 +21,11 @@ export default function TodoHome() {
 
   return (
     <div>
-      <div className='shadow-sm p-2 bg-[#F8F4EC] mb-2 rounded-sm border-2 border-[#f7e1b5]'>
+      <div className='shadow-sm p-2 bg-[#F8F4EC] mb-2 rounded-sm border-2 border-[#B19470]'>
         <AddTodoForm addTask={addTask} />
       </div>
 
-      <div className='shadow-sm p-2 bg-[#EEF5FF] mb-2 rounded-sm border-2 border-[#92bcf6] text-[navy] font-semibold'>
+      <div className='shadow-sm p-2 bg-[#F8FAE5] mb-2 rounded-sm border-2 border-[#b1be3b] text-[navy] font-semibold'>
         <TodoListing entries={toDoList} deleteItem={deleteItem} />
       </div>
     </div>

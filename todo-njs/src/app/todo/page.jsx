@@ -14,6 +14,11 @@ export default function TodoHome() {
     setToDoList((toDoList) => toDoList.filter((rec) => id !== rec.id));
   }
 
+  function editItem(id) {
+    // setToDoList((toDoList) => toDoList.filter((rec) => id !== rec.id));
+    console.log(id);
+  }
+
   const addTask = (userInput) => {
     const newValue = { text: userInput, id: Date.now() };
     setToDoList((toDoList) => [newValue, ...toDoList]);
@@ -26,7 +31,7 @@ export default function TodoHome() {
       </div>
 
       <div className='shadow-sm p-2 bg-[#F8FAE5] mb-2 rounded-sm border-2 border-[#b1be3b] text-[navy] font-semibold'>
-        <TodoListing entries={toDoList} deleteItem={deleteItem} />
+        <TodoListing entries={toDoList} deleteItem={deleteItem} editItem={editItem} />
       </div>
     </div>
   )

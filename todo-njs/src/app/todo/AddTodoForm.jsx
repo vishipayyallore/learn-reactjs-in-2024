@@ -24,6 +24,9 @@ export default function AddTodoForm({ addTask }) {
       <form onSubmit={handleSubmit}>
         <div className="row flex items-center">
           <div className="col-7">
+            <label htmlFor="todo" className="form-label font-semibold text-[navy]">
+              Add New Todo
+            </label>
             <InputField value={userInput} onChange={handleChange} />
           </div>
 

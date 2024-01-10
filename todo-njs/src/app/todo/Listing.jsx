@@ -1,7 +1,23 @@
 import React from 'react'
 
-export default function TodoListing() {
+export default function TodoListing(props) {
+  const entries = props.entries;
+  const deleteItem = props.deleteItem;
+
   return (
-    <div>Todo Listing</div>
+    <>
+      <ul className="mt-3">
+        <b className="ms-3">Items:</b>
+        {entries.map(({ id, text }) => {
+          return (
+            <li className="px-2 mt-1 mb-1 ms-2" key={id} onClick={() => {
+              deleteItem(id);
+            }} >
+              {text}
+            </li>
+          );
+        })}
+      </ul>
+    </>
   )
 }
